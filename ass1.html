@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASS1</title>
+    <link rel="stylesheet" href="./ass1.css">
+</head>
+<body>
+    <div class="headd">
+        <div class="gg">Counting App</div>
+        <div class="headmid">
+            <button class="dec" onclick="decrease()">Decrement by 1</button>
+            <input type="number" id="input" value="0"  >
+            <button class="inc" onclick="increase()">Increment by 1</button>
+        </div>
+        <div> 
+            <button onclick="reset()" class="res">Reset</button>
+        </div>
+    </div>
+
+    <!-- linking JS -->
+    <script>
+        let a= document.getElementsByClassName("dec");
+        let b= document.getElementsByClassName("inc");
+        let c= document.getElementById("input").value=0 ;
+        console.log(c);
+        console.log(a);
+        let d = 0;
+        function decrease(){
+            document.getElementById("input").value = d-1;
+            d--;
+        }
+
+        function increase(){
+            document.getElementById("input").value = d+1;
+            d++;
+        }
+
+        function reset(){
+            document.getElementById("input").value = 0;
+            d=0;
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+.headd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+.gg{
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+.input{
+    size: 1px;
+    
+    
+}
+.headmid{
+    display: flex;
+}
+.dec{
+    font-weight: 900;
+}
+.inc{
+    font-weight: 900;
+}
+.res{
+    font-weight: 900;
+}
